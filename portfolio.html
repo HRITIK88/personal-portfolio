@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="Portfolio.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="h2.png" class="logo">
+				<ul id="sidemenu">
+					<li> <a href="#header">Home</a> </li>
+					<li> <a href="#about">About</a> </li>
+					<li> <a href="#services">Services</a> </li>
+					<li> <a href="#portfolio">Portfolio</a> </li>
+					<li> <a href="#contact">Contact Us</a> </li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<p>Web Devloper</p>
+				<h1>Hi, I'm <span>Hritik</span> <br>Vishwakrma from mumbai</h1>
+			</div>
+		</div>
+		
+	</div>
+	<!-----about---->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="h3.png">
+				</div>
+				<div class="about-col-2">
+					<h1 class="subtitle">About Me</h1>
+					<p>
+						ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<div class="tab">
+							<p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+							<p class="tab-links" onclick="opentab('experience')">Experience</p>
+							<p class="tab-links" onclick="opentab('education')">Education</p>
+						</div>
+						<div class="tab-containers active-tab" id="skill">
+							<ul>
+								<li><span>Web Devloper</span><br>Desingning Web Interfaces</li>
+								<li><span>UI Desingn</span><br>Desingning User Interfaces</li>
+								<li><span>Software Devloper</span><br>design and make software devloper</li>
+							</ul>
+						</div>
+						<div class="tab-containers" id="experience">
+							<ul>
+								<li><span>Web Devloper</span><br>Desingning Web Interfaces</li>
+								<li><span>UI Desingn</span><br>Desingning User Interfaces</li>
+								<li><span>Software Devloper</span><br>design and make software devloper</li>
+							</ul>
+						</div>
+						<div class="tab-containers" id="education">
+							<ul>
+								<li><span>Web Devloper</span><br>Desingning Web Interfaces</li>
+								<li><span>UI Desingn</span><br>Desingning User Interfaces</li>
+								<li><span>Software Devloper</span><br>design and make software devloper</li>
+							</ul>
+						</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!------services------>
+	<div id="services">
+		<div class="container">
+			<h1 class="subb-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fas fa-code"></i>
+					<h2>Web design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+					<a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fas fa-crop-alt"></i>
+					<h2>UI/UX design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+					<a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fab fa-app-store"></i>
+					<h2>Web App devlopemnet</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+					<a href="#">learn more</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-------portfolio----->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="subb-title">My work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="cat-post-1.jpg">
+					<div class="layer">
+						<h3>Social computing</h3>
+						<p>the social computing  connect to the more talient people in the world you candownload from the play store</p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="cat-post-2.jpeg">
+					<div class="layer">
+						<h3>Social computing</h3>
+						<p>the social computing  connect to the more talient people in the world you candownload from the play store</p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="image1.png">
+					<div class="layer">
+						<h3>Social computing</h3>
+						<p>the social computing  connect to the more talient people in the world you candownload from the play store</p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">see more</a>
+		</div>
+		
+	</div>
+	<!---------contact------>
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p> <i class="fas fa-paper-plane"></i>hv167644@gmail.com</p>
+					<p> <i class="fas fa-phone-square-alt"></i>9145618876</p>
+					<div class="social-icons">
+						<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+						<a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+						<a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+						<a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+					</div>
+					<a href="hritikCV.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<input type="number" name="Number" placeholder="Enter your Number" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright Hritik. Made with <i class="fas fa-heart"></i> by easy Tutorials</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontainers = document.getElementsByClassName("tab-containers");
+		function opentab(tabname){
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontainer of tabcontainers){
+				tabcontainer.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+	<script type="text/javascript">
+		var sidemeu=document.getElementById("sidemenu");
+
+		function openmenu(){
+			sidemeu.style.right ="0";
+		}
+		function closemenu(){
+			sidemeu.style.right ="-200px";
+		}
+	</script>
+	<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxc3v-1AXF6fDO9NH5OpBwJg29OZcn8-Wbnui4X_LuePjMkfks3N7dXe_aCHbw_r_MW/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML= "Message sent Successfully"
+      	setTimeout(function(){
+      		msg.innerHTML =""
+      	},5000)
+      	form.reset()
+
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+	
+
+</body>
+</html>
